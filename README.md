@@ -24,3 +24,10 @@ Step 4 : Edit `scoold-application.conf` and replace values of `secretKey` and `a
 Step 5 : restart docker-compose.
 
 Step 6 : Open Link localhost:8000
+
+
+# Addition Setup
+
+* Add Email Configurations Under   `# system email address`
+* Update Domain specific Auth setting accordingly `para.approved_domains_for_signups = "<Domain.com>"`
+* Add Admin Email for Setup Scoold after deploy `para.admins = "Email@gmail.com"`
