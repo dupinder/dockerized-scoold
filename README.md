@@ -7,13 +7,13 @@ Step 1 : Run docker-compose.
 
     `docker-compose -f "docker-compose.yml" up -d --build`
 
-Step 2 : Hit URL `http://localhost:8090/v1/_setup` and copy the json data and save it.
+Step 2 : Hit URL `http://localhost:8080/v1/_setup` and copy the json data and save it.
 Json will be like.
 
     {
-    "accessKey" : "app:para",
+    "accessKey" : "<app:para>",
     "message" : "Save these keys - they are shown only once!",
-    "secretKey" : "e8V26Dhm+gREb19F5wm1cnlaz8Yna9AdwUTmPup1mEbpuEVUkBEtyQ=="
+    "secretKey" : "<e8V26Dhm+gREb19F5wm1cnlaz8Yna9AdwUTmPup1mEbpuEVUkBEtyQ==>"
     }
 
 
